@@ -59,33 +59,33 @@ export const products = [
       "I developed a warm, sand-and-sea visual identity with a refined serif and clean sans-serif pairing, then translated it into a lightweight, mobile-first website. Full-bleed photography, a simple stay finder, clear pricing, and a streamlined enquiry flow make it easy to explore and book. A concise brand guide ensures the identity stays consistent across web, social, and print.",
     images: ["/images/work/website/1.jpg", "/images/work/website/2.jpg"],
   },
-  {
-    slug: "fresh-bite-food-app",
-    title: "FreshBite: Food Ordering & Delivery App",
-    tagline: "From craving to doorstep in three taps.",
-    cover: "/images/work/food-app/cover.jpg",
-    tint: "#fbe3b8",
-    role: "UI/UX Designer",
-    timeline: "5 weeks",
-    tools: ["Figma", "FigJam", "ProtoPie"],
-    overview:
-      "FreshBite is a food ordering and delivery app for busy urban professionals who want quick, reliable meals from nearby restaurants. The design focuses on speed, transparency, and a delightful ordering experience from search to doorstep.",
-    problem:
-      "Users reported that existing food apps feel noisy: promotions crowd the screen, delivery times are unreliable, and reordering a favourite meal takes too many steps. Survey responses from 40 frequent users highlighted decision fatigue and unclear fees at checkout as the biggest frustrations.",
-    solution:
-      "I designed a clean home feed with personalised picks and a one-tap 'Reorder' shortcut. Smart filters (diet, budget, delivery time) reduce choice overload, while upfront pricing removes checkout surprises. A live order tracker with accurate ETAs keeps users informed. The warm, appetising palette and bold food photography make browsing enjoyable, and usability testing showed a significant drop in the number of taps needed to place an order.",
-    images: [
-      "/images/work/food-app/1.jpg",
-      "/images/work/food-app/2.jpg",
-      "/images/work/food-app/3.jpg",
-      "/images/work/food-app/4.jpg",
-    ],
-  },
+  // {
+  //   slug: "fresh-bite-food-app",
+  //   title: "FreshBite: Food Ordering & Delivery App",
+  //   tagline: "From craving to doorstep in three taps.",
+  //   cover: "/images/work/food-app/cover.jpg",
+  //   tint: "#fbe3b8",
+  //   role: "UI/UX Designer",
+  //   timeline: "5 weeks",
+  //   tools: ["Figma", "FigJam", "ProtoPie"],
+  //   overview:
+  //     "FreshBite is a food ordering and delivery app for busy urban professionals who want quick, reliable meals from nearby restaurants. The design focuses on speed, transparency, and a delightful ordering experience from search to doorstep.",
+  //   problem:
+  //     "Users reported that existing food apps feel noisy: promotions crowd the screen, delivery times are unreliable, and reordering a favourite meal takes too many steps. Survey responses from 40 frequent users highlighted decision fatigue and unclear fees at checkout as the biggest frustrations.",
+  //   solution:
+  //     "I designed a clean home feed with personalised picks and a one-tap 'Reorder' shortcut. Smart filters (diet, budget, delivery time) reduce choice overload, while upfront pricing removes checkout surprises. A live order tracker with accurate ETAs keeps users informed. The warm, appetising palette and bold food photography make browsing enjoyable, and usability testing showed a significant drop in the number of taps needed to place an order.",
+  //   images: [
+  //     "/images/work/food-app/1.jpg",
+  //     "/images/work/food-app/2.jpg",
+  //     "/images/work/food-app/3.jpg",
+  //     "/images/work/food-app/4.jpg",
+  //   ],
+  // },
   {
     slug: "finlytics-finance-dashboard",
     title: "Finlytics: Personal Finance Dashboard",
     tagline: "See where your money goes and where it can grow.",
-    cover: "/images/work/finance-dashboard/cover.jpg",
+    cover: "/images/work/finlytics/cover.jpg",
     tint: "#d9e4f7",
     role: "Product Designer",
     timeline: "7 weeks",
@@ -96,33 +96,29 @@ export const products = [
       "People juggle multiple accounts, cards, and subscriptions, but most finance tools overwhelm them with raw numbers and offer little insight. Research interviews revealed that users abandoned budgeting apps because they felt confusing, time-consuming, and judgmental.",
     solution:
       "I created a modular dashboard with a clear net-worth overview, categorised spending charts, recurring-payment alerts, and goal tracking with progress indicators. Plain-language insights, such as 'You spent 18% less on dining this month', turn data into action. A restrained colour system, accessible data visualisations, and a responsive layout with light and dark modes keep the experience clear and trustworthy.",
-    images: [
-      "/images/work/finance-dashboard/1.jpg",
-      "/images/work/finance-dashboard/2.jpg",
-      "/images/work/finance-dashboard/3.jpg",
-    ],
+    images: ["/images/work/finlytics/1.jpg", "/images/work/finlytics/2.jpg"],
   },
-  {
-    slug: "smilecare-dental-clinic",
-    title: "SmileCare: Dental Clinic Website",
-    tagline: "A friendly website that turns visits into appointments.",
-    cover: "/images/work/dental-clinic/cover.jpg",
-    tint: "#dff3ee",
-    role: "UI/UX & Web Designer",
-    timeline: "4 weeks",
-    tools: ["Figma", "Webflow"],
-    overview:
-      "A modern, responsive website for a multi-specialty dental clinic serving families and working professionals. The site introduces the clinic's doctors and treatments, builds patient trust, and makes booking an appointment effortless.",
-    problem:
-      "The clinic relied on word of mouth and an outdated website that lacked clear service information, patient reviews, and an online booking option. Most enquiries came through phone calls, which led to missed appointments and a poor first impression, especially on mobile.",
-    solution:
-      "I designed a clean, reassuring interface in calming teal and white tones, with dedicated pages for treatments, doctor profiles, before-and-after results, and FAQs. A sticky 'Book Appointment' button, a simple booking form with WhatsApp integration, and local SEO-ready structure help convert visitors into patients. The mobile-first layout loads quickly and meets accessibility best practices.",
-    images: [
-      "/images/work/dental-clinic/1.jpg",
-      "/images/work/dental-clinic/2.jpg",
-      "/images/work/dental-clinic/3.jpg",
-    ],
-  },
+  // {
+  //   slug: "smilecare-dental-clinic",
+  //   title: "SmileCare: Dental Clinic Website",
+  //   tagline: "A friendly website that turns visits into appointments.",
+  //   cover: "/images/work/dental-clinic/cover.jpg",
+  //   tint: "#dff3ee",
+  //   role: "UI/UX & Web Designer",
+  //   timeline: "4 weeks",
+  //   tools: ["Figma", "Webflow"],
+  //   overview:
+  //     "A modern, responsive website for a multi-specialty dental clinic serving families and working professionals. The site introduces the clinic's doctors and treatments, builds patient trust, and makes booking an appointment effortless.",
+  //   problem:
+  //     "The clinic relied on word of mouth and an outdated website that lacked clear service information, patient reviews, and an online booking option. Most enquiries came through phone calls, which led to missed appointments and a poor first impression, especially on mobile.",
+  //   solution:
+  //     "I designed a clean, reassuring interface in calming teal and white tones, with dedicated pages for treatments, doctor profiles, before-and-after results, and FAQs. A sticky 'Book Appointment' button, a simple booking form with WhatsApp integration, and local SEO-ready structure help convert visitors into patients. The mobile-first layout loads quickly and meets accessibility best practices.",
+  //   images: [
+  //     "/images/work/dental-clinic/1.jpg",
+  //     "/images/work/dental-clinic/2.jpg",
+  //     "/images/work/dental-clinic/3.jpg",
+  //   ],
+  // },
 ];
 export const getProduct = (slug) => products.find((p) => p.slug === slug);
 
