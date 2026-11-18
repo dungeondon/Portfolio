@@ -2,6 +2,23 @@
 // Leave `cover` / `images` empty to show placeholders.
 export const products = [
   {
+    slug: "mememax-app-case-study",
+    title: "Case Study of MemeMax App",
+    tagline: "case study of mememax app",
+    cover: "/images/work/mememax/cover.jpg",
+    tint: "#f6f1e3",
+    role: "Product Designer",
+    timeline: "2 days",
+    tools: ["Figma", "FigJam", "Maze"],
+    overview:
+      "A meme-only social app: an alternative to Instagram and Facebook with no vulgar or misleading content. Include all memes and fun content",
+    problem:
+      "Memes live inside general-purpose platforms. Feeds mix them with unrelated and sometimes explicit content, so meme lovers cannot trust what comes next and gets distracted.",
+    solution:
+      "MemeMax is a meme-only social app that gives meme lovers one clean, focused place to watch, share and remix. Instead of digging through feeds full of ads, news and explicit content, people see only memes, filtered by category and language, with a visible “Clean feed” promise. Original creators get credit, and templates make it easy to reuse and remix memes, so the app is both safer to scroll and more rewarding to use.",
+    images: ["/images/work/mememax/1.jpg", "/images/work/mememax/cs.jpg"],
+  },
+  {
     slug: "facebook-feed-redesign",
     title: "Facebook Mobile Feed Redesign",
     tagline: "Old UI vs New UI: a calmer, clearer feed.",
